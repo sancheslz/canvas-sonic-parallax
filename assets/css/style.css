@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+}
+.title {
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#game {
+    border: 1px solid black;
+    display: block;
+    margin: 0em auto;
+}

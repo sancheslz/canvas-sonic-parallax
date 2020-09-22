@@ -2,7 +2,7 @@ class Mountain {
     constructor(context, start, speed) {
         this.img = new Image()
         this.img.src = './assets/img/mountain.png'
-        this.img.onload = () => {this.draw()}
+        this.img.onload = () => { this.draw() }
         this.context = context
         this.posX = start
         this.posY = context.canvas.height - 170
@@ -12,6 +12,7 @@ class Mountain {
     }
 
     draw() {
+
         this.context.drawImage(
             this.img,
             this.posX, this.posY, this.context.canvas.width, 200,
@@ -24,7 +25,7 @@ class Mountain {
     }
 
     move() {
-        if (this.posX < -500 ) {
+        if (this.posX < -500) {
             this.posX = 0
         }
         this.posX -= this.speed

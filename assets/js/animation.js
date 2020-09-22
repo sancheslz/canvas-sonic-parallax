@@ -1,6 +1,8 @@
 window.addEventListener('load', () => {
 
     let context = document.getElementById('game').getContext('2d')
+
+    // Objects Construction
     sonic = new Sonic(context)
     cloud = new Cloud(context)
     cloud2 = new Cloud(context)
@@ -14,6 +16,8 @@ window.addEventListener('load', () => {
     mountain3 = new Mountain(context, 100, 0.005)
     mountain4 = new Mountain(context, -300, 0.005)
 
+    
+    // Render the Screen Objects
     requestAnimationFrame(render)
 
     function render() {

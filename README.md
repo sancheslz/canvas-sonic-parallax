@@ -5,7 +5,7 @@
 
 ## About
 
-This is a small project of parallax effect using the HTML `canvas`. In this project Sonic and the scenario is all controlled by JavaSript.
+This is a small project of parallax effect using the HTML `canvas`. In this project Sonic and the scenario are all controlled by JavaSript.
 
 ## Technologies
 

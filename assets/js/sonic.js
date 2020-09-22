@@ -4,7 +4,7 @@ class Sonic {
     constructor(context) {
         this.img = new Image()
         this.img.src = './assets/img/sonic.png'
-        this.img.onload = () => {this.draw()}
+        this.img.onload = () => { this.draw() }
         this.context = context
         this.posX = 50
         this.posY = context.canvas.height - 120
@@ -14,7 +14,7 @@ class Sonic {
 
     draw() {
         this.context.drawImage(
-            this.img, 102*this.pattern, 122, 100, 100,
+            this.img, 102 * this.pattern, 122, 100, 100,
             this.posX, this.posY, 70, 70
         )
     }

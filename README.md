@@ -1,7 +1,7 @@
 # Parallax Effect with Canvas
 
 ## Preview
-![Code Preview](captured.gif)
+![Code Preview](captured_new.gif)
 
 ## About
 
